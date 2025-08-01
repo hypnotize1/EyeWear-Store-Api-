@@ -1,0 +1,25 @@
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Django SQLite DB and logs
+*.sqlite3
+*.log
+
+# VSCode and PyCharm settings (optional but common)
+.vscode/
+.idea/
+
+# Django static and media files
+media/
+staticfiles/
+media/aws/
+
+# Environment variables and secrets
+.env
+.env.*
+
